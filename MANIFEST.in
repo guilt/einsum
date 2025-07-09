@@ -1,0 +1,7 @@
+include README.md
+include LICENSE.md
+include pyproject.toml
+recursive-include einsum *.py
+recursive-include tests *.py
+global-exclude *.pyc
+global-exclude __pycache__
